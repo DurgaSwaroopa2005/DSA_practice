@@ -1,3 +1,19 @@
+/*
+Problem: Find Second Largest Element in an Array
+
+Brute force approach:
+    - sort and access from last
+
+Optimal Approach:
+- Traverse the array and maintain:
+    1. largest element
+    2. second largest element
+- Update values whenever a bigger element is found.
+
+Time Complexity: O(n)
+Space Complexity: O(1)
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
